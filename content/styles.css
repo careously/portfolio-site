@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --white: #f6f1e9;
+    --lighteal: #A6B7AA;
+    --teal: #5C6E6C;
+    --yellow: #D2A96A;
+    --pink: #D39D87;
+    --red: #BB7154;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* text styles */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+h1, h2, h3 {
+    font-family: 'Edu QLD Beginner';
+    font-weight: 600;
+}
+
+p, a {
+    font-family: Montserrat;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* styles */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#work {
+    background-color: var(--teal);
+}
+
+.square {
+    width: 430px;
+    height: 320px;
+    border: var(--yellow) dashed 4px;
+    border-radius: 5px;
+}
