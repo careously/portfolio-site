@@ -1,0 +1,150 @@
+
+:root {
+    --font-title: 'Notable', sans-serif;
+    --font-header: MuseoModerno;
+    --font-main: Montserrat;
+    --color-yellow: #F7A34D;
+    --color-blue: #93B5A7;
+    --color-red: #EC7A59;
+    --color-white: #F5ECE3;
+    --color-dark: #3F5160;
+
+    --nav-height: 80px;
+}
+
+.project-left i {
+    font-size: 75px;
+    color: var(--color-white);
+}
+
+.project-left a {
+    text-align: center;
+    font-family: var(--font-header);
+    font-size: 40px;
+    color: var(--color-yellow);
+}
+
+.project-left a i {
+    font-size: 45px;
+    color: var(--color-yellow);
+}
+
+.project-right i {
+    font-size: 75px;
+    color: var(--color-dark);
+}
+
+.project-right a {
+    text-align: right;
+    font-family: var(--font-header);
+    font-size: 40px;
+    color: var(--color-dark);
+}
+
+.project-right a i {
+    font-size: 45px;
+    color: var(--color-dark);
+}
+
+.project-left {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.proj-info {
+    width: 1100px;
+    height: 500px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.proj-img {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border-radius: 25px 25px 25px 25px;
+    background-color: var(--color-blue);
+}
+
+
+.proj-text .title {
+    font-size: 80px;
+}
+
+.proj-text p {
+    width: 700px;
+    height: 230px;
+    font-family: var(--font-main);
+    font-size: 30px;
+    color: var(--color-dark);
+}
+
+.proj-tech {
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tech {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: var(--color-blue);
+}
+
+.red {
+    background-color: var(--color-red);
+}
+
+.white {
+    color: var(--color-white);
+}
+
+.back-white {
+    background-color: var(--color-white);
+}
+
+.project-right {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-yellow);
+}
+
+.project-right .proj-info {
+    text-align: right;
+    justify-content: space-between;
+}
+
+.project-right .title {
+    width: 700px;
+}
+
+.square-right {
+    width: 130px;
+    height: 90px;
+    position: absolute;
+    bottom: -20px;
+    right: -25px;
+    border-radius: 50px 5px 5px 5px;
+
+}
+
+.rectangle-right {
+    width: 350px;
+    height: 60px;
+    position: absolute;
+    bottom: -20px;
+    left: -25px;
+    border-radius: 50px 5px 5px 5px;
+}
